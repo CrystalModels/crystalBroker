@@ -3,7 +3,7 @@
 class model_dom {
 
 function dom_integrations() {
-    $option=1; //opcion de subdominio
+    $option=2; //opcion de subdominio
 
 
     if($option==1){//localhost
@@ -30,7 +30,7 @@ function dom_integrations() {
 }
 function dom_main() {
     
-    $option=1; //opcion de subdominio
+    $option=2; //opcion de subdominio
 
 
     if($option==1){//localhost
