@@ -795,7 +795,7 @@ Flight::route('GET /getModelInfo/@modelId', function ($modelId) {
 
 
 
-
+/*
 
   
 //echo $response1;
@@ -843,9 +843,9 @@ foreach ($users as $user) {
 }
 
 echo json_encode(['modelInfo' => $r1]);
+*/
 
-
-
+echo json_encode($response);
 //echo json_encode($profile);
 //echo json_encode($arr);}
     }
