@@ -803,7 +803,7 @@ Flight::route('GET /getModelInfo/@modelId', function ($modelId) {
    $deco2=json_decode($response2,true);  
    // Crear el array combinado
 $logs = array(
-  'logs' => $deco1['rooms']
+  'rooms' => $deco1['rooms']
 );
 $usuarios = array(
   'users' => $deco2['users']
@@ -811,7 +811,7 @@ $usuarios = array(
 
 $res = array(
   
-  'logs' => $logs['rooms'],
+  'rooms' => $logs['rooms'],
   'users' => $usuarios['users']
   
 );
