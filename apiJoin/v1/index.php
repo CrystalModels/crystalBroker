@@ -766,7 +766,8 @@ Flight::route('GET /getModelInfo/@modelId', function ($modelId) {
       
       // Realizar la solicitud y obtener la respuesta
       $response = file_get_contents($sub_domain.'/crystalIntegrations/apiControlTower/v1/getAllRoomsTrue/', false, $context);
-           
+                 
+              
 
       curl_close($curl);
 
