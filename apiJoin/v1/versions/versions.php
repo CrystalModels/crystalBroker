@@ -12,7 +12,7 @@ function ver_change() {
     ];
     array_push($values,$value);
 
-    return json_encode(['crystalCore-apiUsers'=>$values]);
+    return json_encode(['crystalBroker-apiJoin'=>$values]);
 }
 
 }
